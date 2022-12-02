@@ -196,6 +196,12 @@ document.querySelector("#cards").innerHTML =
     "18/12",
     "domingo",
       createGame("brazil", "12:00", "brazil")
+  ) +
+
+  createCard(
+    "->",
+    "Campeão da copa do mundo 2022",
+      createGame("fifa", "Vencedor", "brazil")
   )
 
   
