@@ -134,73 +134,73 @@ document.querySelector("#cards").innerHTML =
 
   createCard(
     "03/12",
-    "sábado",
+    "sábado - (Oitavas)",
     createGame("netherlands", "12:00", "united states") +
       createGame("argentina", "16:00", "australia")
   ) +
 
   createCard(
     "04/12",
-    "domingo",
+    "domingo - (Oitavas)",
     createGame("france", "12:00", "poland") +
       createGame("england", "16:00", "senegal")
   ) +
 
   createCard(
     "05/12",
-    "segunda",
+    "segunda - (Oitavas)",
     createGame("japan", "12:00", "croatia") +
       createGame("brazil", "16:00", "ghana")
   ) +
 
   createCard(
     "06/12",
-    "terça",
+    "terça - (Oitavas)",
     createGame("morocco", "12:00", "spain") +
       createGame("portugal", "16:00", "switzerland")
   ) +
 
   createCard(
     "09/12",
-    "sexta",
+    "sexta - (Quartas)",
     createGame("brazil", "12:00", "brazil") +
       createGame("brazil", "16:00", "brazil")
   ) +
 
   createCard(
     "10/12",
-    "sábado",
+    "sábado - (Quartas)",
     createGame("brazil", "12:00", "brazil") +
       createGame("brazil", "16:00", "brazil")
   ) +
 
   createCard(
     "13/12",
-    "terça",
+    "terça - (Semifinais)",
       createGame("brazil", "16:00", "brazil")
   ) +
 
   createCard(
     "14/12",
-    "quarta",
+    "quarta - (Semifinais)",
       createGame("brazil", "16:00", "brazil")
   ) +
 
   createCard(
     "17/12",
-    "sábado",
+    "sábado - (3º Lugar)",
       createGame("brazil", "12:00", "brazil")
   ) +
 
   createCard(
     "18/12",
-    "domingo",
+    "domingo - (Final)",
       createGame("brazil", "12:00", "brazil")
   ) +
 
   createCard(
-    "->",
-    "Campeão da copa do mundo 2022",
+    ">",
+    "Campeão da copa do mundo",
       createGame("fifa", "Brasil", "brazil")
   )
 
