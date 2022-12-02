@@ -201,7 +201,7 @@ document.querySelector("#cards").innerHTML =
   createCard(
     "->",
     "Campeão da copa do mundo 2022",
-      createGame("fifa", "Vencedor", "brazil")
+      createGame("fifa", "Brasil", "brazil")
   )
 
   
