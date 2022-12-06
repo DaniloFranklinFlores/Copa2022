@@ -135,22 +135,22 @@ document.querySelector("#cards").innerHTML =
   createCard(
     "03/12",
     "sábado - (Oitavas)",
-    createGame("netherlands", "12:00", "united states") +
-      createGame("argentina", "16:00", "australia")
+    createGame("netherlands", "3 x 1", "united states") +
+      createGame("argentina", "2 x 1", "australia")
   ) +
 
   createCard(
     "04/12",
     "domingo - (Oitavas)",
-    createGame("france", "12:00", "poland") +
-      createGame("england", "16:00", "senegal")
+    createGame("france", "3 x 1", "poland") +
+      createGame("england", "3 x 0", "senegal")
   ) +
 
   createCard(
     "05/12",
     "segunda - (Oitavas)",
-    createGame("japan", "12:00", "croatia") +
-      createGame("brazil", "16:00", "south korea")
+    createGame("japan", "(1)1x1(3)", "croatia") +
+      createGame("brazil", "4 x 1", "south korea")
   ) +
 
   createCard(
@@ -163,45 +163,45 @@ document.querySelector("#cards").innerHTML =
   createCard(
     "09/12",
     "sexta - (Quartas)",
-    createGame("brazil", "12:00", "brazil") +
-      createGame("brazil", "16:00", "brazil")
+    createGame("croatia", "12:00", "brazil") +
+      createGame("netherlands", "16:00", "argentina")
   ) +
 
   createCard(
     "10/12",
     "sábado - (Quartas)",
-    createGame("brazil", "12:00", "brazil") +
-      createGame("brazil", "16:00", "brazil")
+    createGame("fifa", "12:00", "fifa") +
+      createGame("england", "16:00", "france")
   ) +
 
   createCard(
     "13/12",
     "terça - (Semifinais)",
-      createGame("brazil", "16:00", "brazil")
+      createGame("fifa", "16:00", "fifa")
   ) +
 
   createCard(
     "14/12",
     "quarta - (Semifinais)",
-      createGame("brazil", "16:00", "brazil")
+      createGame("fifa", "16:00", "fifa")
   ) +
 
   createCard(
     "17/12",
     "sábado - (3º Lugar)",
-      createGame("brazil", "12:00", "brazil")
+      createGame("fifa", "12:00", "fifa")
   ) +
 
   createCard(
     "18/12",
     "domingo - (Final)",
-      createGame("brazil", "12:00", "brazil")
+      createGame("fifa", "12:00", "fifa")
   ) +
 
   createCard(
     ">",
     "Campeão da copa do mundo",
-      createGame("fifa", "Brasil", "brazil")
+      createGame("fifa", "Brasil", "fifa")
   )
 
   
