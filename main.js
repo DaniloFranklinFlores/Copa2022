@@ -163,45 +163,45 @@ document.querySelector("#cards").innerHTML =
   createCard(
     "09/12",
     "sexta - (Quartas)",
-    createGame("croatia", "12:00", "brazil") +
-      createGame("netherlands", "16:00", "argentina")
+    createGame("croatia", "(4)1x1(2)", "brazil") +
+      createGame("netherlands", "(3)2x2(4)", "argentina")
   ) +
 
   createCard(
     "10/12",
     "sábado - (Quartas)",
-    createGame("morocco", "12:00", "portugal") +
-      createGame("england", "16:00", "france")
+    createGame("morocco", "1 x 0", "portugal") +
+      createGame("england", "1 x 2", "france")
   ) +
 
   createCard(
     "13/12",
     "terça - (Semifinais)",
-      createGame("fifa", "16:00", "fifa")
+      createGame("argentina", "3 x 0", "croatia")
   ) +
 
   createCard(
     "14/12",
     "quarta - (Semifinais)",
-      createGame("fifa", "16:00", "fifa")
+      createGame("france", "2 x 0", "morocco")
   ) +
 
   createCard(
     "17/12",
     "sábado - (3º Lugar)",
-      createGame("fifa", "12:00", "fifa")
+      createGame("croatia", "2 x 1", "morocco")
   ) +
 
   createCard(
     "18/12",
     "domingo - (Final)",
-      createGame("fifa", "12:00", "fifa")
+      createGame("argentina", "12:00", "france")
   ) +
 
   createCard(
     ">",
     "Campeão da copa do mundo",
-      createGame("fifa", "Brasil", "fifa")
+      createGame("fifa", "?", "fifa")
   )
 
   
