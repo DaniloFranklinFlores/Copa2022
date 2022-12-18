@@ -201,7 +201,7 @@ document.querySelector("#cards").innerHTML =
   createCard(
     ">",
     "Campeão da copa do mundo",
-      createGame("fifa", "Argentina", "argentina")
+      createGame("argentina", "Argentina", "fifa")
   )
 
   
